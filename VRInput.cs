@@ -30,7 +30,7 @@ public enum EM_ControllerPadPos {
 
 
 /// <summary>
-/// 簡易 SteamVR 2.0 的案件功能接口
+/// 簡易 SteamVR 2.0 的按鍵接口
 /// </summary>
 public static class VRInput {
 
