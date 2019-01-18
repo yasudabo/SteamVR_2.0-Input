@@ -27,7 +27,7 @@ public class VRInput_Test : MonoBehaviour {
     }
 
     /// <summary>
-    /// 鍵查板機狀態
+    /// 檢查板機狀態
     /// </summary>
     private void Check_Trigger() {
         if (VRInput.GetPressDown(inputSource, EM_ControllerButton.Trigger)) {
@@ -81,7 +81,7 @@ public class VRInput_Test : MonoBehaviour {
 
 
     /// <summary>
-    /// 檢查員盤四邊的狀態 
+    /// 檢查圓盤四邊的狀態 
     /// 需要找個物件掛上 SteamVR_ActivateActionSetOnLoad.cs 激活 platformer動作集
     /// </summary>
     private void Check_PadPos() {
